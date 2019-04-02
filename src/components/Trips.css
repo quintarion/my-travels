@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url('https://fonts.googleapis.com/css?family=Satisfy');
+}
+
+* {
+    font-family: 'Satisfy', cursive;
+}
+  
+.images {
+    border: 2px rgba(10, 20, 29, 0.5) solid;
+    height: 360px;
+    object-fit: cover;
+    width: 640px;
+}
+
+.trip {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.description {
+    font-size: 1.3rem;
+    height: 300px; 
+    margin: auto;  
+    padding: 0 30px;
+    text-align: justify;
+    width: 500px;  
+}
+
+@media screen and (max-width: 1024px) {
+    .trip {
+        flex-flow: wrap;
+    }
+    .descrition {
+        align-self: start;
+        align-self: flex-start;
+        height: 200px;
+    }
+}
+
+
+/*.trip {
+    clear:both;
+    display:block;
+}*/
+
