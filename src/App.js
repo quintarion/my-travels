@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import Header from './components/Header'
 import Trips from './components/Trips'
+import Travels from './components/Travels'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <header>
         <Header />
       </header>
+      <section>
           <Trips 
           destination="Venezuela"
           country="Caracas"
@@ -38,9 +40,13 @@ class App extends Component {
           distance="11 599,57km"
           description="Praedam rapacium momento nobis volatu vastabant non tamen rapiunt dispexerint temporis impetraverint non nec praedam impetraverint dispexerint similes similes aut parvi nobis discursantes rapiunt poterat volatu impetraverint rapiunt celsius ultro."
           />
+      </section>
+      <section>
+        <Travels />
+      </section>
       </div>
     )
   }
 }
 
-export default App
+export default App;
