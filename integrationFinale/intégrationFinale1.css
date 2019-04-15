@@ -1,0 +1,90 @@
+* {
+    font-family: 'Tangerine', cursive;
+    box-sizing: border-box;
+}
+
+.navM {
+    padding-left: 2rem;
+}
+
+.containerPills {
+    display: flex;
+    flex-flow: wrap;         /*flex-direction and flex-wrap*/
+    justify-content: center;
+    width: 100vw;
+}
+
+.containerPills a {
+    color:rgb(117, 117, 121);
+    margin: 0 2vw;
+    padding: 1vw;
+    width: 15vw;
+}
+
+.containerPills a:hover {
+    background-color: rgb(70, 70, 73);
+} 
+
+.decorationPills {
+    color:rgb(117, 117, 121) !important;
+}
+
+.containerCards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.cardM {
+    margin: 1rem;
+}
+
+.cardH {
+    background: rgba(0,0,0,.03) !important; /*ne fonctionne pas*/
+    margin-bottom: 1rem !important;
+}
+
+.col-3 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+
+.row {
+    margin-left: 0;
+}
+
+thead {
+    background-color: rgb(117, 117, 121);
+    color: whitesmoke;
+}
+
+.thM .tdM {
+    width: 50% !important; /*ne fonctionne pas*/
+}
+
+.tableM {
+    border: 0.1rem solid rgb(70, 70, 73) !important;
+}
+
+.circleM {
+    text-align: left; /*ne fonctionne pas*/
+}
+
+.rewardM {
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.container-fluid a {
+    text-decoration: none;
+}
+
+.twitter {
+    
+}
